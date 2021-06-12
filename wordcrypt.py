@@ -2,7 +2,7 @@ alphabets = 'abcdefghijklmnopqrstuvwxyz'
 
 
 def dictVerify(dcipher, shift):
-    filename = 'C:\\Users\\jagat\\PycharmProjects\\Marksus\\dictionary\\%s.txt' % dcipher[0]
+    filename = 'dictionary\\%s.txt' % dcipher[0]
     with open(filename, 'r') as file:
         for line in file.readlines():
                 if dcipher in line and len(line)-1 == len(dcipher):
