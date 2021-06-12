@@ -22,7 +22,7 @@ def switch2():
     elif choice2 == 2:
         wordcall()
     else:
-        print("Oops wring choice")
+        print("Oops wrong choice")
         switch2()
 
 def switch1():
